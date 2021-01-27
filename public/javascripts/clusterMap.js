@@ -5,8 +5,10 @@ const map = new mapboxgl.Map({
     center: [-103.59179687498357, 40.66995747013945],
     zoom: 3
 });
-//mapdocs map control
-map.addControl(new mapboxgl.NavigationControl(), 'button-left');
+
+map.addControl(new mapboxgl.NavigationControl());
+
+
 
 
 map.on('load', function () {

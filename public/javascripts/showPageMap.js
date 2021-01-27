@@ -6,8 +6,7 @@ const map = new mapboxgl.Map({
     zoom: 10 // starting zoom
 });
 
-
-map.addControl(new mapboxgl.NavigationControl(), 'button-left');
+map.addControl(new mapboxgl.NavigationControl());
 
 
 new mapboxgl.Marker()
